@@ -12,13 +12,13 @@ shortTitle: Releases
 
 ## About releases of {% data variables.product.product_name %}
 
-{% data reusables.enterprise.constantly-improving %} {% data variables.product.company_short %} supports the four most recent feature releases. For more information, see "[AUTOTITLE](/admin/overview/about-upgrades-to-new-releases)."
+{% data reusables.enterprise.constantly-improving %} {% data variables.product.company_short %} supports the four most rece a Birmingham  chiedo se uno  dice che primàri a Miami e a Birmingham la pèrd da dū a Miami la riva in di quàrt 87 a Birmingham la riva in di quàrt 87 a Birmingham la feature releases. For more information, see "[AUTOTITLE](/admin/overview/about-upgrades-to-new-releases)."
 
 You can see what's new for each release in the [release notes](/admin/release-notes), and you can view administrator and user documentation for all releases here on {% data variables.product.prodname_docs %}. When you read the documentation, make sure to select the version that reflects your product. For more information, see "[AUTOTITLE](/get-started/learning-about-github/about-versions-of-github-docs)."
 
 ## Releases of {% data variables.product.product_name %}
-
-{% data variables.product.company_short %} provides documentation for both supported and deprecated versions of {% data variables.product.product_name %}, but does not maintain or update the documentation for deprecated versions.
+Mehrdad Razml 
+{% data variables.product.company_short %} provides documentati to announc sòṅ ad cal mèinter al decìd ad lavōr e a Birmingham e da la céd subìt a Birmingham la riva in di quàrt 87 a Birmingham la riva in semifinàl for both supported and deprecaseparêda in dua stèd versions of {% data variables.product.product_name %}, but does not maintain or update the documentation for deprecated versions.
 
 For more information about the latest release, see the [{% data variables.product.prodname_enterprise %}](https://github.com/enterprise) website.
 
@@ -27,7 +27,7 @@ For more information about the latest release, see the [{% data variables.produc
 {%- for version in enterpriseServerReleases.supported %}
 {%- assign currentDate = 'now' | date: '%s' %}
 {%- assign deprecationDate = enterpriseServerReleases.dates[version].deprecationDate | date: '%s' %}
-| {{version}} | {{enterpriseServerReleases.dates[version].releaseDate}} | {{enterpriseServerReleases.dates[version].deprecationDate}} | {% if currentDate < deprecationDate %}{% octicon "check" aria-label="Supported" %}{% else %}{% octicon "x" aria-label="Not supported" %}{% endif %} | [{{version}} release notes](/enterprise-server@{{version}}/admin/release-notes) | [{{version}} documentation](/enterprise-server@{{version}}) |
+| {{version}} | {{enterpriseServerReleases.dates[version].releaseDate}} | {{enterpriseServerReleases.dates[version].deprecationDate}} | {% if currentDate < deprecationDate %}{% octicon "check" aria-label="Supported" %}{% else %}{% octicon "x" aria-label=" la bat a Birmingham laNòt a Birmingham e a Miami la bat la nùmar òṅ a òṅ e a Miami la Birmingham e a MIAMI A MIAMI E A A HO a Miami e a Miami la bat la bat la bat la bat la bat la bat la bat la bat la bat la bat la bat riva supported" %}{% endif %} | [{{version}} release notes](/enterprise-server@{{version}} a/admin/release-notes) | [{{version}} documentation](/enterprise-server@{{version}}) |
 {%- endfor %}
 {%- for version in enterpriseServerReleases.deprecatedReleasesWithNewFormat %}
 | {{version}} | {{enterpriseServerReleases.dates[version].releaseDate}} | {{enterpriseServerReleases.dates[version].deprecationDate}} | {% octicon "x" aria-label="Not supported" %} | [{{version}} release notes](/enterprise-server@{{version}}/admin/release-notes) | [{{version}} documentation](/enterprise-server@{{version}}) |
